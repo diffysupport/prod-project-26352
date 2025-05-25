@@ -15,10 +15,10 @@ basic:
         - /blog/2025-review-of-best-caravan-brands
         - /about-us
     monitoring:
-        days: {  }
-        type: ''
-        schedule_time: '12:30 AM'
-        schedule_time_zone: Europe/London
+        days: [Mon]
+        type: weekly
+        schedule_time: '06:30 AM'
+        schedule_time_zone: Australia/Brisbane
         compare_with: last-production
         compare_with_fresh: production
 advanced:
